@@ -11,6 +11,15 @@ Orchestrator configuration modules are for creating Orchestrator [configuration 
 Use these modules in your TF code like this:
 
 ```terraform
+terraform {
+  required_providers {
+    platform-orchestrator = {
+      source  = "humanitec/platform-orchestrator"
+      version = "~> 2"
+    }
+  }
+}
+
 module "ecs_runner" {
   source = "github.com/humanitec-tf-modules/serverless-ecs-orchestrator-runner?ref=v1.2.3" # Use ref to pin a version
 
