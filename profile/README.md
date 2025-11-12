@@ -35,3 +35,7 @@ Orchestrator configuration modules are suffixed with the main type of Orchestrat
 Orchestrator module sources are used as the `module_source` in Platform Orchestrator [modules](https://developer.humanitec.com/platform-orchestrator/docs/configure/modules/overview/). As an Orchestrator user, you will not usually use these modules yourself, rather they will be used by the [Orchestrator configuration modules](#orchestrator-configuration-modules).
 
 Orchestrator module sources never create any Orchestrator objects using the `humanitec/platform-orchestrator` TF provider, but only third party objects using other provider(s).
+
+## Contributing
+
+You need to be a member of this GitHub organization to create new module repositories. Go to the [Members README](https://github.com/humanitec-tf-modules?view_as=member) for details (accessible for organization members only).
