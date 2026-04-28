@@ -1,6 +1,6 @@
-# Terraform/OpenTofu (TF) modules for the Humanitec Platform Orchestrator
+# Terraform/OpenTofu (TF) modules for the Platform Orchestrator
 
-This GitHub organization contains repositories providing curated Terraform/OpenTofu ("TF") modules for use with the [Humanitec Platform Orchestrator](https://developer.humanitec.com/platform-orchestrator).
+This GitHub organization contains repositories providing curated Terraform/OpenTofu ("TF") modules for use with the [Platform Orchestrator](https://developer.humanitec.com/platform-orchestrator).
 
 There are two kinds of module repositories: [Orchestrator configuration modules](#orchestrator-configuration-modules) and [Orchestrator module sources](#orchestrator-module-sources).
 
